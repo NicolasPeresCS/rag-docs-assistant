@@ -2,8 +2,6 @@
 
 Assistente de perguntas e respostas sobre documentos (PDF, Markdown, TXT) que **responde com citação das fontes** e **se recusa a responder quando a informação não está nos documentos**. Construído em Python com busca híbrida, LLM (Claude), API REST e interface web.
 
-> **Demo:** adicione aqui um GIF ou print da interface Streamlit (`docs/demo.gif`).
-
 ## Por que este projeto
 
 Respostas de LLM sem base em documentos podem ser inventadas. Aqui o objetivo é o oposto: **toda resposta vem de trechos recuperados, com a fonte indicada, e o sistema diz "não encontrei" quando não há base**. O foco do projeto está na engenharia ao redor do modelo: recuperação, prompt, guardas, testes e avaliação.
