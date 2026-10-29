@@ -38,10 +38,10 @@ flowchart LR
 ## Como rodar
 
 ```bash
-git clone https://github.com/SEU_USUARIO/rag-docs-assistant && cd rag-docs-assistant
+git clone https://github.com/NicolasPeresCS/rag-docs-assistant && cd rag-docs-assistant
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev,ui]"
-cp .env.example .env   # opcional: preencha ANTHROPIC_API_KEY
+cp .env.example .env
 ```
 
 **CLI**
@@ -110,10 +110,6 @@ tests/           testes unitários e de API
 - Não há reranking, streaming de resposta nem histórico de conversa: cada pergunta é independente.
 - PDFs escaneados (imagem) não funcionam, pois não há OCR.
 - A busca é feita em memória: serve para centenas de documentos, não para milhões.
-
-## Próximos passos
-
-Reranker com cross-encoder, streaming, histórico de conversa com reescrita de pergunta, OCR para PDFs escaneados, banco vetorial persistente e avaliação da qualidade da *resposta* (fidelidade às fontes) além da recuperação.
 
 ## Licença
 
