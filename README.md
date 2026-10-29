@@ -2,8 +2,6 @@
 
 Assistente de perguntas e respostas sobre documentos (PDF, Markdown, TXT) que **responde com citação das fontes** e **se recusa a responder quando a informação não está nos documentos**. Construído em Python com busca híbrida, LLM (Claude), API REST e interface web.
 
-![CI](https://github.com/SEU_USUARIO/rag-docs-assistant/actions/workflows/ci.yml/badge.svg)
-
 > **Demo:** adicione aqui um GIF ou print da interface Streamlit (`docs/demo.gif`).
 
 ## Por que este projeto
