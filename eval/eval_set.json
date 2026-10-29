@@ -1,0 +1,18 @@
+[
+  {"question": "Quantos dias de home office por semana são permitidos?", "expected_source": "politica_home_office.md"},
+  {"question": "Qual o valor do auxílio home office?", "expected_source": "politica_home_office.md"},
+  {"question": "Em quais dias a presença no escritório é obrigatória?", "expected_source": "politica_home_office.md"},
+  {"question": "Preciso de aprovação para trabalhar de outro país?", "expected_source": "politica_home_office.md"},
+  {"question": "Quanto tempo dura o período de experiência?", "expected_source": "guia_onboarding.md"},
+  {"question": "Quem é o padrinho ou madrinha do novo colaborador?", "expected_source": "guia_onboarding.md"},
+  {"question": "Quais treinamentos são obrigatórios nos primeiros dias?", "expected_source": "guia_onboarding.md"},
+  {"question": "Quanto é o vale-refeição por dia?", "expected_source": "guia_onboarding.md"},
+  {"question": "Quanto custa o plano Business?", "expected_source": "faq_produto.md"},
+  {"question": "O teste gratuito pede cartão de crédito?", "expected_source": "faq_produto.md"},
+  {"question": "Qual o horário do suporte por chat?", "expected_source": "faq_produto.md"},
+  {"question": "Em quanto tempo posso pedir reembolso?", "expected_source": "faq_produto.md"},
+  {"question": "Por quantos dias os backups são mantidos?", "expected_source": "faq_produto.md"},
+  {"question": "Qual a capital da França?", "expected_source": null},
+  {"question": "Como faço um bolo de cenoura?", "expected_source": null},
+  {"question": "Quem ganhou a Copa do Mundo de 2018?", "expected_source": null}
+]
